@@ -1,4 +1,4 @@
-    const url = 'https://api.payvessel.com/api/external/request/customerReservedAccount/';
+    const url = 'https://sandbox.payvessel.com/api/external/request/customerReservedAccount/';
 
     let data = 
     {
@@ -17,8 +17,8 @@
     // body: JSON.stringify(data),
     body: data,
     headers: new Headers({
-        'api-key': 'PVKEY-FNLYA8DW2LGZE6KFI0K4AA7N5JP',
-        'api-secret': 'Bearer PVSECRET-5LZNFFNT8N9NF6SXUZPWEYQ0Q2Y',
+        'api-key': 'PVKEY-BQYGA4JBHUQN1FTHD0V1YMX8LHVDEOYT',
+        'api-secret': 'Bearer PVSECRET-UTVV9T10YOUNSF8FBDSAW2T3RDQTTABTASCWJAAYILZ7FIGX3GZ73DLAA0JC80G5',
         'Content-Type': 'application/json'
     }
     )
